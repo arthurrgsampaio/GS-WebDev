@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/login.css">
+  <script src="./script/login.js" defer></script>
+  <title>Página de Login</title>
+</head>
+<body>
+  <div class="container">
+    <header id="header">
+      <a href="index.html#header">
+        <h1>DMO</h1>
+      </a>
+      <nav>
+        <a href="index.html#problema">Problema</a>
+        <a href="index.html#solucao">Solução</a>
+        <a href="index.html#empresa">Empresa</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="login">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <label for="username">Usuário</label>
+          <input type="text" name="username" id="username" placeholder="Usuário">
+          <label for="password">Senha</label>
+          <input type="password" name="password" id="password" placeholder="Senha">
+          <p id="mensagemErro"></p>
+          <button type="submit" id="btnLogin">Entrar</button>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>Todos os direitos Reservados &copy;</p>
+    </footer>
+  </div>
+</body>
+</html>
